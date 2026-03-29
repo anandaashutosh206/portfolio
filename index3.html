@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Aashutosh Anand">
+  <meta name="description" content="Portfolio of Aashutosh Anand, aspiring SDE-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aashutosh Anand | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h2>Aashutosh</h2>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Hello, I'm <span class="highlight">Aashutosh Anand</span></h1>
+    <p>Aspiring Software Development Engineer (SDE)</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section reveal">
+    <h2>About Me</h2>
+    <p>I am a B.Tech CSE student passionate about DSA, Development, and AI projects.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section reveal">
+    <h2>Skills</h2>
+
+    <div class="skill-bar">
+      <span>C/C++</span>
+      <div class="bar"><div class="progress" style="width:90%"></div></div>
+    </div>
+
+    <div class="skill-bar">
+      <span>Python</span>
+      <div class="bar"><div class="progress" style="width:70%"></div></div>
+    </div>
+
+    <div class="skill-bar">
+      <span>DSA</span>
+      <div class="bar"><div class="progress" style="width:85%"></div></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section reveal">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+      <div class="card">
+        <h3>LibraMate</h3>
+        <p>AI-powered library assistant</p>
+      </div>
+
+      <div class="card">
+        <h3>AquaSense</h3>
+        <p>Water quality monitoring system</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section reveal">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br><br>
+      <input type="email" placeholder="Email"><br><br>
+      <textarea placeholder="Message"></textarea><br><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Aashutosh Anand</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
